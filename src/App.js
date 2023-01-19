@@ -1,7 +1,6 @@
 import './App.css';
-import Nav from './components/Nav/Nav';
+import Navv from './components/Nav/Navv';
 import Home from './components/Home/Home';
-import Sidebar from './components/Sidebar/Sidebar';
 import Footer from './components/Footer/Footer';
 import Menu from './components/Menu/Menu';
 import About from './components/About/About';
@@ -11,7 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Nav />
+      <Navv />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
