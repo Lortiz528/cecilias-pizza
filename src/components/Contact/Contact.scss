@@ -5,11 +5,23 @@
 .contact{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
- 
+    
+}
+
+.contact-card{
+    text-align: center;
 }
 
 .details{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    
+}
+
+@media (max-width:450px) {
+    .details{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
 }

@@ -22,9 +22,9 @@ function Navv() {
           <Nav className="me-auto">
             <Nav.Link href="/menu"><strong>Menu</strong></Nav.Link>
             <Nav.Link href="/contact"><strong>Contact</strong></Nav.Link>
-            <Nav.Link href="https://www.instagram.com/cecilias_pizzeriabk/">
+            {/* <Nav.Link href="https://www.instagram.com/cecilias_pizzeriabk/">
               <img style={{ width: "50px", margin: "10px" }} src={ig} alt='insta'/>
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
