@@ -5,9 +5,8 @@ import { Container } from 'react-bootstrap';
 
 function Home() {
   return (
-    <Container className='home-container'>
-      <h2 className="home">Welcome to Cecilias Pizza BK!</h2>
-      <HomeCarousel/>
+    <Container>
+      <HomeCarousel />
     </Container>
   );
 }
