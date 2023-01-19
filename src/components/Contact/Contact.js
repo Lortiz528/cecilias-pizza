@@ -1,11 +1,11 @@
 import React from 'react';
 import './Contact.scss';
-import { Card, ListGroup } from 'react-bootstrap';
+import { Card, ListGroup, Container } from 'react-bootstrap';
 import storeFront from '../Screenshot 2023-01-19 at 12.07.17 AM.png';
 
 function Contact() {
   return (
-    <div className="contact">
+    <Container className="contact">
       <h2 className="contact-header">Contact Us</h2>
       <Card
         style={{ width: '20rem' }}
@@ -35,7 +35,7 @@ function Contact() {
           </Card.Link>
         </Card.Body>
       </Card>
-    </div>
+    </Container>
   );
 }
 
