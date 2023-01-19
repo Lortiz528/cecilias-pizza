@@ -8,7 +8,7 @@ function Contact() {
     <Container className="contact">
       <h2 className="contact-header">Contact Us</h2>
       <Card
-        style={{ width: '20rem' }}
+        style={{ width: '100%' }}
         classname="contact-card"
         border="secondary"
       >

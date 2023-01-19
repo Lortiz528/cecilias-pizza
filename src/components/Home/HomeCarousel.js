@@ -10,22 +10,24 @@ import item5 from '../Screenshot 2023-01-18 at 1.38.03 PM.png';
 function HomeCarousel() {
   return (
     <div className="carousel">
+       <br></br>
       <h2 className="home">Welcome to Cecilias Pizza BK!</h2>
-      <Carousel fade>
+      <br></br>
+      <Carousel  fade>
         <Carousel.Item>
-          <img src={item1} alt="First slide" />
+          <img className='carou' src={item1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={item2} alt="Second slide" />
+          <img className='carou' src={item2} alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={item3} alt="Third slide" />
+          <img className='carou' src={item3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={item4} alt="fourth slide" />
+          <img className='carou' src={item4} alt="fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={item5} alt="fifth slide" />
+          <img className='carou' src={item5} alt="fifth slide" />
         </Carousel.Item>
       </Carousel>
     </div>
