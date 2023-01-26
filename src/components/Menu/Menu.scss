@@ -1,0 +1,38 @@
+.menuSection{
+    text-align: center;
+}
+
+
+.menuImage{
+    width: 1000px;;
+}
+
+@media (max-width:850px) {
+    .menuImage{
+        width: 750px;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .menuImage{
+        width: 500px;
+    }
+    
+}
+
+
+@media (max-width:400px) {
+    .menuImage{
+        width: 300px;;
+    }
+    
+}
+
+
+@media (max-width:300px) {
+    .menuImage{
+        width: 200px;
+    }
+    
+}

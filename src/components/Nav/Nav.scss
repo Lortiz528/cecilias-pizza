@@ -11,3 +11,10 @@
     font-size: xx-large;
   
   }
+
+  @media (max-width:300px) {
+    .logo{
+        width: 100px;
+    }
+    
+}

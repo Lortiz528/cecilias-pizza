@@ -11,25 +11,31 @@ function HomeCarousel() {
       <br></br>
       <Carousel variant="dark" >
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/4N6iLNk.jpg' alt="First slide" />
+          <img className=' w-100' src='https://i.imgur.com/4N6iLNk.jpg' alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/tX23g0V.jpg' alt="Second slide" />
+          <img className=' w-100' src='https://i.imgur.com/tX23g0V.jpg' alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/RvDWXXt.jpg' alt="Third slide" />
+          <img className=' w-100' src='https://i.imgur.com/RvDWXXt.jpg' alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/AorfHtw.jpg' alt="fourth slide" />
+          <img className=' w-100' src='https://i.imgur.com/AorfHtw.jpg' alt="fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/M0apq2v.jpg' alt="fifth slide" />
+          <img className=' w-100' src='https://i.imgur.com/M0apq2v.jpg' alt="fifth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/kzVRFiq.jpg' alt="sixth slide" />
+          <img className=' w-100' src='https://i.imgur.com/kzVRFiq.jpg' alt="sixth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100' src='https://i.imgur.com/D61pzS8.png' alt="seventh slide" />
+          <img className=' w-100' src='https://i.imgur.com/D61pzS8.png' alt="seventh slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className=' w-100' src='https://i.imgur.com/PM2lbaY.jpg' alt="eighth slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className=' w-100' src='https://i.imgur.com/DymAndF.png' alt="ninth slide" />
         </Carousel.Item>
       </Carousel>
     </div>
