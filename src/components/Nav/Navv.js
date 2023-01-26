@@ -3,11 +3,9 @@ import './Nav.scss';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 
 
-//import NavDropdown from 'react-bootstrap/NavDropdown';
-
 function Navv() {
   return (
-    <Navbar collapseOnSelect expand="md"  className="navbar-whole">
+    <Navbar collapseOnSelect expand="lg"  className="navbar-whole">
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} className="logo" alt="logo" />

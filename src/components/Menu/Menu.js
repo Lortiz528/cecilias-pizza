@@ -6,7 +6,7 @@ function Menu() {
     <div>
       <section className='menuSection'>
         <img className='menuImage' src='https://i.imgur.com/btiPHSa.png' alt='menu1'/>
-    
+      <br></br>
         <img className='menuImage' src='https://i.imgur.com/PhvZnZQ.png' alt='menu2'/>
       </section>
     </div>
