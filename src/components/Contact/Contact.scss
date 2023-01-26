@@ -17,11 +17,29 @@
     grid-template-columns: repeat(2, 1fr);
    
 }
+.gmaps{
+    width: 200px;
+    // height: 200px;
+}
+
+.intstaIcon{
+    // width: 150px;
+    height: 100px;
+}
 
 @media (max-width:450px) {
     .details{
         display: grid;
         grid-template-columns: auto;
+    }
+    .gmaps{
+        width: 100px;
+   
+    }
+    
+    .intstaIcon{
+         width: 75px;
+       height: 75px;
     }
     
 }

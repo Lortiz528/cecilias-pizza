@@ -1,30 +1,26 @@
 import logo from './ceciliasLogo.png';
 import './Nav.scss';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import ig from '../dTKYTwR - Imgur.png'
+import {Container, Nav, Navbar} from 'react-bootstrap';
+
+
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navv() {
   return (
-    <Navbar className='navbar-whole' sticky='top'>
+    <Navbar collapseOnSelect expand="md"  className="navbar-whole">
       <Container>
         <Navbar.Brand href="/">
-        <img
-              src={logo}
-              className="logo"
-              alt="logo"
-            />
+          <img src={logo} className="logo" alt="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/menu"><strong>Menu</strong></Nav.Link>
-            <Nav.Link href="/contact"><strong>Contact</strong></Nav.Link>
-            {/* <Nav.Link href="https://www.instagram.com/cecilias_pizzeriabk/">
-              <img style={{ width: "50px", margin: "10px" }} src={ig} alt='insta'/>
-            </Nav.Link> */}
+            <Nav.Link href="/menu">
+              <strong>Menu</strong>
+            </Nav.Link>
+            <Nav.Link href="/contact">
+              <strong>Contact</strong>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
