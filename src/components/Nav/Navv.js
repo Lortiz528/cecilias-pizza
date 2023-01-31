@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 function Navv() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar-whole">
+    <Navbar sticky='top' collapseOnSelect expand="lg" className="navbar-whole">
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} className="logo" alt="logo" />
