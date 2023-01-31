@@ -6,7 +6,7 @@ import igicon from '../dTKYTwR - Imgur.png'
 
 function Contact() {
   return (
-    <Container className="contact">
+    <Container id='contactSection' className="contact">
       <h2 className="contact-header">Contact Us!</h2>
       <Card
         style={{ width: '100%' }}

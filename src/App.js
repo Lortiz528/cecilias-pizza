@@ -5,16 +5,21 @@ import Menu from './components/Menu/Menu';
 import Contact from './components/Contact/Contact';
 import { Routes, Route } from 'react-router-dom';
 
+
 function App() {
+
+
+
   return (
     <div className='App'>
       <Navv />
       <main>
-        <Routes>
+        <Home/>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+        </Routes> */}
       </main>
     </div>
   );
