@@ -13,8 +13,9 @@ function Navv() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link>
+            <Nav.Link >
               <Link
+              className='navlink'
                 activeClass="active"
                 to="menuSection"
                 spy={true}
@@ -25,6 +26,7 @@ function Navv() {
             </Nav.Link>
             <Nav.Link>
               <Link
+              className='navlink'
                 activeClass="active"
                 to="contactSection"
                 spy={true}
