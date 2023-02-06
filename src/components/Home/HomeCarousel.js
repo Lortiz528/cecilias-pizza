@@ -12,71 +12,78 @@ function HomeCarousel() {
         <Carousel.Item>
           <img
             className=" w-100"
+            src="https://i.imgur.com/t9mnSvz.jpg"
+            alt="slide 1"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className=" w-100"
             src="https://i.imgur.com/iipNzBG.png"
-            alt="intro slide"
+            alt="slide 2"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/4N6iLNk.jpg"
-            alt="First slide"
+            alt="slide 3"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/tX23g0V.jpg"
-            alt="Second slide"
+            alt="slide 4"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/RvDWXXt.jpg"
-            alt="Third slide"
+            alt="slide 5"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/AorfHtw.jpg"
-            alt="fourth slide"
+            alt="slide 6"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/M0apq2v.jpg"
-            alt="fifth slide"
+            alt="slide 7"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/kzVRFiq.jpg"
-            alt="sixth slide"
+            alt="slide 8"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/D61pzS8.png"
-            alt="seventh slide"
+            alt="slide 9"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/PM2lbaY.jpg"
-            alt="eighth slide"
+            alt="slide 10"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className=" w-100"
             src="https://i.imgur.com/DymAndF.png"
-            alt="ninth slide"
+            alt="slide 11"
           />
         </Carousel.Item>
       </Carousel>
