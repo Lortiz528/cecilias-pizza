@@ -1,4 +1,5 @@
-import logo from './ceciliasLogo.png';
+//import logo from './ceciliasLogo.png';
+import newLogo from './newLogo.png'
 import './Nav.scss';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-scroll';
@@ -8,7 +9,7 @@ function Navv() {
     <Navbar collapseOnSelect expand="lg" className="navbar-whole">
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="logo" alt="logo" />
+          <img src={newLogo} className="logo" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

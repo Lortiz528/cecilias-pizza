@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.scss';
-import { Card, ListGroup, Container } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 // import storeFront from '../Screenshot 2023-01-19 at 12.07.17 AM.png';
 import igicon from '../dTKYTwR - Imgur.png'
 
