@@ -7,7 +7,7 @@ function HomeCarousel() {
     <div id="carouselSection" className="carousel">
       <br></br>
       {/* <h2 className="home">Cecilias Pizzeria </h2> */}
-      <br></br>
+     
       <Carousel fade variant="dark">
         <Carousel.Item>
           <img
