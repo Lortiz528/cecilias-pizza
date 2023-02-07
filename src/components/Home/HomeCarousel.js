@@ -6,9 +6,9 @@ function HomeCarousel() {
   return (
     <div id="carouselSection" className="carousel">
       <br></br>
-      <h2 className="home">Cecilias Pizzeria </h2>
+      {/* <h2 className="home">Cecilias Pizzeria </h2> */}
       <br></br>
-      <Carousel variant="dark">
+      <Carousel fade variant="dark">
         <Carousel.Item>
           <img
             className=" w-100"

@@ -5,7 +5,6 @@ import './Menu.scss'
 function Menu() {
   return (
     <Container  id='menuSection' className='menuContainer'>
-      <h4>Menu</h4>
       <section className='menuSection'>
         <img className='menuImage' src='https://i.imgur.com/Scs98iE.png' alt='menu1'/>
       <br></br>
